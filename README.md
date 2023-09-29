@@ -1,4 +1,4 @@
-# C19Project
+# Covid-19 Data Analysis
 
 <ul>
   <li>Scrapped the data from Worldometer through BeautifulSoup to create Covid-19 dataframe</li>
