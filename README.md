@@ -6,3 +6,5 @@
   <li>Established impact of government policies such as lockdown and testing frequency on daily Covid-19 cases using Pandas.</li>
   <li>Plotted the relation between death rate and previous health indicators such median age, obesity and diabetes using Matplotlib on aggregated data.</li>
 </ul>
+
+## Installing Development Requirements
