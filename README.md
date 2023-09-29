@@ -8,3 +8,7 @@
 </ul>
 
 ## Installing Development Requirements
+
+```
+  pip install -r requirements.txt
+```
