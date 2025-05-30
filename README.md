@@ -1,14 +1,41 @@
-# Covid-19 Data Analysis
+# COVID-19 Data Analysis
 
-<ul>
-  <li>Scrapped the data from Worldometer through BeautifulSoup to create Covid-19 dataframe</li>
-  <li>Cleansed and prepared the dataset for analysis using Pandas, Numpy and regular expressions</li>
-  <li>Established impact of government policies such as lockdown and testing frequency on daily Covid-19 cases using Pandas.</li>
-  <li>Plotted the relation between death rate and previous health indicators such median age, obesity and diabetes using Matplotlib on aggregated data.</li>
-</ul>
+This project involves the analysis of global COVID-19 data scraped from [Worldometer](https://www.worldometers.info/coronavirus/). The analysis explores the relationship between pandemic trends and public health indicators, as well as the effects of government interventions.
 
-## Installing Development Requirements
+## 📊 Project Highlights
+
+- 🕸 **Web Scraping**: Utilized `BeautifulSoup` to scrape real-time COVID-19 data from Worldometer and constructed a structured Pandas DataFrame.
+- 🧹 **Data Cleaning**: Performed preprocessing using `Pandas`, `NumPy`, and `regex` to handle missing values, standardize formats, and prepare data for analysis.
+- 📈 **Policy Impact Analysis**: Analyzed the impact of government measures—such as lockdowns and testing frequency—on daily COVID-19 case counts.
+- 🧬 **Health Indicator Correlation**: Investigated the relationship between COVID-19 death rates and underlying health factors such as median age, obesity, and diabetes prevalence.
+- 📉 **Visualization**: Created insightful plots using `Matplotlib` to highlight trends and correlations in the aggregated data.
+
+## 🛠 Installation
+
+To install all required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 📁 Project Structure
 
 ```
-  pip install -r requirements.txt
+.
+├── C_19_DataAnalysis.ipynb
+├── requirements.txt
+├── README.md
 ```
+
+## 📌 Dependencies
+
+- pandas
+- numpy
+- matplotlib
+- requests
+- beautifulsoup4
+- re
+
+## 📜 License
+
+This project is licensed under the MIT License.
